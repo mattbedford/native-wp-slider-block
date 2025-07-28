@@ -1,0 +1,18 @@
+{
+  "name": "devteam-native-wp-slider",
+  "version": "1.0.0",
+  "description": "A custom WordPress block that wraps nested blocks in a Swiper.js slider.",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "format": "wp-scripts format"
+  },
+  "author": "DevTeam",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}

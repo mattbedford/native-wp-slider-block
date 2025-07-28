@@ -1,0 +1,34 @@
+/* Container for Swiper instance */
+.swiper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Wrapper holds slides */
+.swiper-wrapper {
+    display: flex;
+    transition-property: transform;
+}
+
+/* Each slide */
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Optional: arrow buttons */
+.swiper-button-prev,
+.swiper-button-next {
+    color: #000;
+}
+
+/* Optional: pagination dots */
+.swiper-pagination-bullet {
+    background: #333;
+    opacity: 0.5;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}

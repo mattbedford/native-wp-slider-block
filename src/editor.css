@@ -1,0 +1,28 @@
+/* Add a dashed border to help identify the block visually */
+.devteam-slider-editor {
+    border: 2px dashed #ccd0d4;
+    padding: 1rem;
+    position: relative;
+    min-height: 120px;
+    overflow: hidden;
+}
+
+/* Make inner blocks display horizontally (to simulate a slider) */
+.devteam-slider-editor > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+}
+
+/* Each inner block simulates a "slide" */
+.devteam-slider-editor .block-editor-block-list__layout > * {
+    min-width: 200px;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background: #fafafa;
+    border-radius: 4px;
+}

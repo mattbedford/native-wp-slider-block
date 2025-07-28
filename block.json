@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "devteam/native-wp-slider",
+  "title": "Native WP Slider",
+  "category": "design",
+  "icon": "images-alt2",
+  "description": "A container block that displays its inner blocks as Swiper.js slides.",
+  "keywords": ["slider", "carousel", "swiper", "container"],
+  "version": "1.0.0",
+  "textdomain": "devteam",
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "attributes": {
+    "showNavigation": {
+      "type": "boolean",
+      "default": true
+    },
+    "showArrows": {
+      "type": "boolean",
+      "default": true
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "loop": {
+      "type": "boolean",
+      "default": false
+    },
+    "slidesPerView": {
+      "type": "number",
+      "default": 1
+    },
+    "sliderId": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "usesContext": [],
+  "providesContext": {},
+  "parent": null,
+  "styles": [],
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/editor.css",
+  "style": "file:./build/style.css"
+}

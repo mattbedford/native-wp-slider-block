@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# WordPress block build output
+build/
+
+# Editor/IDE
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# OS stuff
+Thumbs.db
