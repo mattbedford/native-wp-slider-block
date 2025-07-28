@@ -28,6 +28,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 nextEl: container.querySelector('.swiper-button-next'),
                 prevEl: container.querySelector('.swiper-button-prev')
             };
+        } else {
+            container.querySelector('.swiper-button-next').style.display = "none";
+            container.querySelector('.swiper-button-prev').style.display = "none";
         }
 
         // Swiper must be available globally from the CDN
